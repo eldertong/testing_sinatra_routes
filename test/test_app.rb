@@ -7,5 +7,5 @@ class TestApp < Minitest::Test
     def test_ask_name_on_entry_page
     get '/'
     assert(last_response.ok?)
-    
+    end
 end
